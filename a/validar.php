@@ -15,7 +15,7 @@ if(empty($usuario) | empty($pass)) {
 	exit();
 }
 
-$conn or die("Error al conectar con el servidor, porfavor intente mas tarde." . mysql_error());
+$conn or die("Error al conectar con el servidor, porfavor espere e intente mas tarde." . mysql_error());
 
 $result = $conn ->query($busqueda);
 
