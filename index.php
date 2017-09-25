@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PetFeeder</title>
+  <title>Inicio</title>
 
   <!--links de css-->
 
