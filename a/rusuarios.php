@@ -23,7 +23,7 @@ if($reqlen > 0){
 		echo '<div class="texto">Su registro se a creado correctamente</div>';
 	}
 	else {
-		echo '<div class="texto">Por favor, introduzca dos contrase&ntilde;as identicas</div>';
+		echo '<div class="texto">Por favor, introduzca dos contrase&ntilde;as identicas.</div>';
 	}
 }
 else {
