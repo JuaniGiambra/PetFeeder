@@ -1,0 +1,84 @@
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: helvetica;
+		 }
+
+		 body {
+		 	
+		 }
+		 .main {
+		 	width: 500px;
+		 	margin: 50px;
+		 	border: 3px solid #dc143c;
+		 	border-radius: 10px;
+		 	background-color: #fffaf0;
+		 	border-left: 40px solid #dc143c;
+		 }
+
+		 .info {
+		 	width: 100%;
+		 	padding: 8px;
+		 	background-color: #dc143c;
+		 	font-size: 20px;
+		 	font-weight: bold;
+		 	text-align: center;
+		 	color: #fff;
+		 	text-shadow: 1px 1px 2px #000;
+		 }
+
+		 .form-box {
+		 	padding: 25px;
+		 }
+
+		 label {
+		 	color: navy;
+		 	font-size: 20px;
+		 }
+
+		 .inp, #msg-box{
+		 	width: 100%;
+		 	padding: 10px;
+		 	margin-bottom: 5px;
+		 	margin-top: 3px;
+		 	border: 2px solid #dc143c;
+		 	border-radius: 5px;
+		 	font-weight: bold;
+		 	border-right: 20px solid #dc143c;
+		 	border-left: 20px solid #dc143c;
+		 	color: navy;
+		 }
+
+		 .inp:focus, #msg-box:focus {
+		 	outline: none;
+		 	border: 2px solid navy;
+		 	border-right: 20px solid navy;
+		 	border-left: 20px solid navy;
+		 }
+
+		 .submit {
+		 	border: none;
+		 	background-color: #dc143c;
+		 	border-radius: 20px;
+		 	width: 100%;
+		 	padding-top: 7px;
+		 	padding-bottom: 7px;
+		/* 	padding-right: 15px;
+		 	padding-left: 15px; */
+		 }
+
+		 #msg-box {
+		 	resize: none;
+		 	height: 80px;
+		 }
+
+		 .submit:hover {
+		 	background-color: #a30f2d;
+		 }
+
+		 @media(max-width: 720px) {
+		 	.main {
+		 		width: 90%;
+		 	}
+		 }

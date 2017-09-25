@@ -1,0 +1,39 @@
+<!--scripts-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
+
+  <!--font awesome-->
+
+  <script src="https://use.fontawesome.com/9b0f959430.js"></script>
+
+  <!--activadores-->
+
+  <script>
+    $( document ).ready(function(){
+
+      //sidenav
+
+      $(".button-collapse").sideNav();
+
+      //parallax
+
+      $('.parallax').parallax();
+
+      //carousel
+
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+      });
+
+      $('.carousel.carousel-slider').carousel();
+      setInterval(function() {
+        $('.carousel').carousel('next');
+      }, 8000);
+
+      //modal
+
+      $('.modal').modal();
+    });
+  </script>

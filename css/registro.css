@@ -1,0 +1,30 @@
+.formulario {
+	margin-top: 5%;
+	background-color: #95dee4;
+	border-radius: 15px;
+}
+
+.boton {
+	padding-top: 7px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 20px;
+	border: none;
+	background-color: #2cbec9;
+	font-family: 'Baloo Tammudu', cursive;
+}
+
+.boton:hover {
+	background-color: #56cbd3;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.iniciar {
+	text-decoration: none;
+	color: black;
+}
+
+.baloo {
+	font-family: 'Baloo Tammudu', cursive;
+}
